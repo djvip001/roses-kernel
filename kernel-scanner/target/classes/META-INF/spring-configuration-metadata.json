@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "roses.scanner",
+      "type": "com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties",
+      "sourceType": "com.stylefeng.roses.kernel.scanner.config.ScannerAutoConfiguration",
+      "sourceMethod": "public com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties scannerProperties() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "roses.scanner.app-code",
+      "type": "java.lang.String",
+      "description": "应用的编码",
+      "sourceType": "com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties"
+    },
+    {
+      "name": "roses.scanner.app-name",
+      "type": "java.lang.String",
+      "description": "被扫描应用的名称",
+      "sourceType": "com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties"
+    },
+    {
+      "name": "roses.scanner.link-symbol",
+      "type": "java.lang.String",
+      "description": "链接符号",
+      "sourceType": "com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties"
+    },
+    {
+      "name": "roses.scanner.open",
+      "type": "java.lang.Boolean",
+      "description": "资源扫描开关",
+      "sourceType": "com.stylefeng.roses.kernel.scanner.config.properties.ScannerProperties"
+    }
+  ],
+  "hints": []
+}

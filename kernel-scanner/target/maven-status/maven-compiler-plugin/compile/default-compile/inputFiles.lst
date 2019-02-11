@@ -1,0 +1,12 @@
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\listener\ResourceReportListener.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\factory\ApiResourceFactory.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\service\ResourceCollectService.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\ApiResourceScaner.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\model\ResourceTreeNode.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\factory\DefaultApiResourceFactory.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\config\properties\ScannerProperties.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\annotation\PostResource.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\config\ScannerAutoConfiguration.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\annotation\GetResource.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\stereotype\ApiResource.java
+D:\git\roses-kernel\kernel-scanner\src\main\java\com\stylefeng\roses\kernel\scanner\modular\util\AopTargetUtils.java

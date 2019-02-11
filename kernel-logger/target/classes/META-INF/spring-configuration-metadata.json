@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "roses.log",
+      "type": "com.stylefeng.roses.kernel.logger.config.properties.LogProperties",
+      "sourceType": "com.stylefeng.roses.kernel.logger.config.LoggerAutoConfiguration",
+      "sourceMethod": "public com.stylefeng.roses.kernel.logger.config.properties.LogProperties logProperties() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "roses.log.kafka",
+      "type": "java.lang.Boolean",
+      "description": "日志记录的总开关（通过kafka）",
+      "sourceType": "com.stylefeng.roses.kernel.logger.config.properties.LogProperties"
+    },
+    {
+      "name": "roses.log.level",
+      "type": "java.lang.String",
+      "description": "记录日志的级别（逗号隔开）",
+      "sourceType": "com.stylefeng.roses.kernel.logger.config.properties.LogProperties"
+    },
+    {
+      "name": "roses.log.trace",
+      "type": "java.lang.Boolean",
+      "description": "是否开启trace链式记录",
+      "sourceType": "com.stylefeng.roses.kernel.logger.config.properties.LogProperties"
+    }
+  ],
+  "hints": []
+}
