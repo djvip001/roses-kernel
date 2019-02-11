@@ -39,9 +39,6 @@ public class GlobalErrorView implements View {
 		return "text/html";
 	}
 
-	public void s() {
-	}
-
 	@Override
 	public void render(Map<String, ?> map, HttpServletRequest httpServletRequest,
 			HttpServletResponse httpServletResponse) throws Exception {
@@ -52,7 +49,7 @@ public class GlobalErrorView implements View {
 			httpServletResponse.getWriter().write(
 					JSON.toJSONString(new ErrorResponseData((Integer) map.get("code"), (String) map.get("message"))));
 		} else {
-			if (map != null && map.get("          status") != null && map.get("error") != null) {
+			if (map != null && map.get("status") != null && map.get("error") != null) {
 				Object status = map.get("status");
 				Object error = map.get("error");
 				httpServletResponse.getWriter()
